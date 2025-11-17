@@ -188,8 +188,8 @@
         </p>
       </div>
       <div class="header-right">
-        <div>7 Walnut Way, MA 01748</div>
-        <div>Phone: +1 689 895 8403</div>
+        <div>326 Woodland Street, MA 01746</div>
+        <div>Phone: +1 689 210 7277</div>
         <div>Email: <a href="mailto:jyborges@bu.edu">jyborges@bu.edu</a></div>
         <div class="code-link">
           GitHub: <a href="https://github.com/julian-borges-md" target="_blank" rel="noopener">julian-borges-md</a>
