@@ -83,6 +83,7 @@ Main responsibilities:
 Main achievements:
 •	Trained future specialists and produced novel research to drive progress in the field of Endocrinology and Clinical Nutrition.
 •	Applied expertise to improve patient lives and advance e-healthcare through digital education and innovative medical technology implementation.
+
 Remote/Hybrid Digital Healthcare Business Advisor – FxMEDUS
 Brazil/United States | May 2024 – Present www.fxmedus.com
 FxMEDUS, LLC is a consulting firm that delivers tailored solutions for a wide variety of I-healthcare organizations.
@@ -96,6 +97,7 @@ Main responsibilities:
 Projected achievements:
 •	Successfully guide private practices, clinics, and other related healthcare businesses in improving market positioning, lead acquisition, risk management and business revenue.
 •	Nurtured a culture focused on patient-centric personalized care with innovative emerging technologies, leading to breakthrough outcomes for the healthcare industry.
+
 Physician – Endocrinology, Clinical Nutrition, and Sports Medicine Specialist – FxMED – Private Practice
 Goiania, Brazil | April 2011 – Present http://www.fxmed.com.br/  
 FxMED - is a clinic specialized in Endocrinology, Nutritional Medicine, and Sports Medicine.
@@ -123,6 +125,7 @@ Main achievements:
 •	Established a strong reputation as a compassionate and knowledgeable family physician, earning high patient satisfaction ratings and referrals.
 •	Implemented a successful chronic disease management program, improving outcomes for patients with diseases such as diabetes and hypertension.
 •	Led community health education workshops and organized screening events for underserved populations.
+
 Sports Medicine Attending Physician – Espaço Stella Torreão
 Rio de Janeiro, Brazil | January 2005 – December 2006 https://stellatorreao.com.br/
 Espaço Stella Torreão is a health and wellness center focused on physical and mental well-being.
@@ -142,15 +145,16 @@ Faculty and Clinical Appointments
 Associate Professor of Medicine – Afya Medical Post-Graduation Institute
 Goiania, Brazil | 2022–Present
 Teaches postgraduate medical professionals in Endocrinology and Clinical Nutrition, with a focus on Artificial Intelligence (AI) in healthcare, precision medicine, and advanced treatment strategies for endocrine and metabolic disorders.
+
 Staff Physician – Endocrinology, FxMED - Medicina Funcional – Private Practice
 Goiania, Brazil | 2011–Present
 Specializes in managing complex metabolic and endocrine conditions, integrating clinical nutrition, patient-centered care models, and AI-enabled diagnostics into private practice workflows.
 Teaching Activities
-
 •	Educates postgraduate students in endocrinology and clinical nutrition, emphasizing advancements in genomic testing and precision medicine.
 •	Develops and delivers seminars on AI-assisted diagnostics and data-driven clinical decision-making.
 •	Supervises research projects integrating digital health solutions with evidence-based medicine.
 •	Leads applied workshops in systematic review methodology, digital therapeutics, and health data analytics.
+
 Research Interests and Current Projects
 
 •	Chronic Disease Precision Management: Integrating molecular genetics, nutritional interventions, and AI for endocrine and cardiometabolic disorders.
@@ -160,8 +164,11 @@ Research Interests and Current Projects
 •	Drug Discovery: Investigating mitochondria-enhancing peptides and small compounds in silico.
 MitoCoreX Project – Principal Investigator
 An AI-agentic powered discovery and development platform designed to optimize mitochondrial function through genomic targeting, multi-agent systems, and in silico validation. Applications include aging-related diseases, neurodegeneration, and metabolic performance enhancement.
+
 Editorial Roles and Peer Review Activities
+
 Editorial Roles:
+
 •	Academic Editor – PLOS Digital Health (2025–Present)
 •	Editorial Board Member – International Journal of Diabetes and Endocrinology (2025–Present)
 •	Editorial Board Member – International Journal of Epidemiology and Public Health Research (2023–Present)
@@ -170,11 +177,6 @@ Editorial Roles:
 •	Peer Reviewer – European Journal of Preventive Cardiology (2025–Present)
 •	Peer Reviewer – European Heart Journal Digital Health (2024–Present)
 •	Peer Reviewer – Nature Reviews (2025–Present)
-
-
-
-
-
 
 Ad hoc Peer Review Contributions
 
@@ -224,6 +226,7 @@ Selected Lectures and Presentations
 •	“Functional Medicine & Cell Nutrition” – 1st International Congress on Internal Medicine, UNIFESP-EPM, São Paulo (2002).
 •	“Orthomolecular Medicine and Aging” – 1st Congress on Longevity, Rio de Janeiro (2001).
 •	“Bio-Orthomolecular Therapy” – 14th International Congress, São Paulo (2001).
+
 Memberships and Professional Affiliations
 
 •	American Medical Association (AMA), USA
@@ -244,6 +247,7 @@ Languages
 •	Spanish – Intermediate
 •	French – Intermediate
 •	German – Basic
+
 Selected Publications
 
 •	Borges J.Y.V. Precision Medicine in Cardiology: An Evolving Understanding of Biomarkers in Coronary Artery Disease Prevention – Cardiology and Cardiovascular Medicine, 8(4), DOI: https://doi.org/10.26502/fccm.92920395 
@@ -287,6 +291,7 @@ Complimentary Courses and Trainings
 •	Segmental Spinal Sensitization: Basis for a New Approach in the Diagnosis and Treatment of Musculoskeletal Pain. WorkShop of Prof. Andrew A. Fischer, PhD. - 2001.
 •	The 13th International Congress on Medicine with Results in Ortho-Biomolecular Therapy, Cell Nutrition and Functional Medicine - 2000.
 •	ACLIMA PROGRAM - Itinerant Program of Pediatric Infectious Diseases. Sociedade de Pediatria do Estado do Rio de Janeiro (SOPERJ) - 1999.
+
 Point-of-Care Ultrasound (POCUS) Training
 Specialized Clinical and Imaging Training
 Completed formal ultrasound certification programs with hands-on and theoretical components across multiple clinical domains, emphasizing diagnostic precision and procedural guidance.
@@ -315,5 +320,3 @@ Period: August 25 – 28, 2011 | Duration: 52 hours | Qualification: Par
 Curricular Scope:
 Upper and lower limb musculoskeletal ultrasound with sports-injury emphasis. Practical and theoretical modules covering shoulder, elbow, wrist, ankle, knee, adult and pediatric hip imaging.
 Faculty: Monres José Gomes (MD); Luiz Augusto A. Batista (MD, Coordinator); Walter P. Borges (MD); Waldemar N. do Amaral (MD)
-
-<img width="432" height="637" alt="image" src="https://github.com/user-attachments/assets/4bc2c006-d16c-43ff-969b-bcd83f28e7e7" />
