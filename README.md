@@ -245,14 +245,14 @@
         <div class="item">
           <div class="item-header">
             <div class="item-title">MS in Computer Science</div>
-            <div class="item-meta">Heriot Watt University · 2026</div>
+            <div class="item-meta">Heriot Watt University · 2026-2028</div>
           </div>
         </div>
 
         <div class="item">
           <div class="item-header">
             <div class="item-title">AI in Health Care Specialization</div>
-            <div class="item-meta">Stanford University School of Medicine · 2026</div>
+            <div class="item-meta">Stanford University School of Medicine · 2026-2026</div>
           </div>
         </div>
 
