@@ -245,7 +245,7 @@
         <div class="item">
           <div class="item-header">
             <div class="item-title">MS in Computer Science</div>
-            <div class="item-meta">Heriot Watt University · 2026–2028</div>
+            <div class="item-meta">Heriot Watt University · 2026</div>
           </div>
         </div>
 
