@@ -357,17 +357,6 @@
         </ul>
       </div>
 
-      <div class="item">
-        <div class="item-header">
-          <div>
-            <div class="item-title">Sports Medicine Physician</div>
-            <div class="muted small">Espaço Stella Torreão, Rio de Janeiro · 2005–2006</div>
-          </div>
-        </div>
-        <ul>
-          <li>Cared for athletes and physically active individuals and developed rehabilitation and cardiac rehabilitation programs.</li>
-        </ul>
-      </div>
     </section>
 
     <section class="section">
