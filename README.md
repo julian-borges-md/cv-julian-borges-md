@@ -1,7 +1,9 @@
+```html
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Julian Yin Vieira Borges, MD, MS – CV</title>
+  <title>Julian Yin Vieira Borges, MD, MSc – CV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root {
@@ -167,7 +169,7 @@
     }
 
     .code-link {
-      font-family: "JetBrains Mono", "Fira Code", ui-monospace, SFMonoRegular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-family: ui-monospace, SFMonoRegular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
       font-size: 0.9rem;
     }
 
@@ -178,27 +180,35 @@
     }
   </style>
 </head>
+
 <body>
   <main class="page">
     <header class="header">
       <div class="header-left">
-        <h1>Julian Yin Vieira Borges, MD, MS</h1>
+        <h1>Julian Yin Vieira Borges, MD, MSc</h1>
         <p class="tagline">
-          Physician Scientist · Endocrinology · Health Informatics · AI and Genomics
+          Physician Scientist · Clinical AI Governance · Health Informatics · Genomics and Digital Health
         </p>
       </div>
+
       <div class="header-right">
-        <div>326 Woodland Street, MA 01746</div>
-        <div>Phone: +1 689 210 7277</div>
+        <div>Boston Area, Massachusetts</div>
+        <div>Phone: +1 617 895 8403</div>
         <div>Email: <a href="mailto:jyborges@bu.edu">jyborges@bu.edu</a></div>
+
         <div class="code-link">
-          GitHub: <a href="https://github.com/julian-borges-md" target="_blank" rel="noopener">julian-borges-md</a>
+          GitHub:
+          <a href="https://github.com/julian-borges-md" target="_blank" rel="noopener">julian-borges-md</a>
         </div>
+
         <div class="code-link">
-          LinkedIn: <a href="https://www.linkedin.com/in/julian-borges-md/" target="_blank" rel="noopener">julian-borges-md</a>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/julian-borges-md/" target="_blank" rel="noopener">julian-borges-md</a>
         </div>
+
         <div class="small">
-          ORCID: <a href="https://orcid.org/0009-0001-9929-3135" target="_blank" rel="noopener">0009-0001-9929-3135</a>
+          ORCID:
+          <a href="https://orcid.org/0009-0001-9929-3135" target="_blank" rel="noopener">0009 0001 9929 3135</a>
         </div>
       </div>
     </header>
@@ -206,28 +216,34 @@
     <section class="section">
       <h2>Professional Summary</h2>
       <p>
-        Physician scientist with more than twenty years of clinical, academic and research experience in endocrinology, digital health and chronic disease management. Expert in integrating artificial intelligence, precision medicine and health informatics to advance patient care and medical innovation. Associate professor and principal investigator with a strong record in clinical research, peer reviewed publication, digital innovation and postgraduate medical education. Recognized for leadership in precision medicine, data driven healthcare transformation and development of AI powered therapeutic platforms such as MitoCoreX. Experienced in bridging legacy systems and emerging technologies to personalize care and improve outcomes.
+        Clinician scientist with more than twenty years of clinical, academic, and research experience in endocrinology,
+        digital health, and chronic disease management. Specialized in clinical AI governance, model evaluation,
+        deployment safety, and reproducible analytics using real world clinical data. Experienced in translating clinical
+        risk, bias, and uncertainty into operational oversight artifacts, including audit frameworks, monitoring plans,
+        and decision logging. Associate professor and principal investigator with peer reviewed publications spanning
+        biomedical informatics, cardiometabolic prevention, and applied machine learning. Builder of translational
+        platforms and reusable research infrastructure supporting scalable, accountable AI adoption in healthcare.
       </p>
     </section>
 
     <section class="section">
       <h2>Key Skills</h2>
       <ul class="pill-list">
-        <li>Artificial Intelligence in Healthcare</li>
-        <li>Machine Learning Applications</li>
-        <li>Large Language Models</li>
+        <li>Clinical AI Governance</li>
+        <li>Responsible AI and Model Risk</li>
+        <li>Model Evaluation and Monitoring</li>
+        <li>Audit Methods for AI Safety</li>
+        <li>Real World Evidence Analytics</li>
+        <li>Decision Support Systems</li>
         <li>Python for Data Science</li>
         <li>R for Data Science</li>
-        <li>Bioinformatics and Genomic Data Analysis</li>
+        <li>SQL and Data Pipelines</li>
+        <li>Bioinformatics and Genomic Data</li>
         <li>Health Informatics and Digital Health</li>
-        <li>Clinical Research Design and Trials</li>
-        <li>Systematic Review and Meta Analysis</li>
-        <li>Precision Medicine Implementation</li>
+        <li>Clinical Research Design</li>
+        <li>Systematic Reviews and Meta Analysis</li>
         <li>Systems Analysis and Design</li>
-        <li>Healthcare Systems Integration</li>
-        <li>Project Management</li>
-        <li>Drug Discovery and Development</li>
-        <li>Healthcare Business Solutions</li>
+        <li>Program and Project Leadership</li>
       </ul>
     </section>
 
@@ -238,28 +254,14 @@
         <div class="item">
           <div class="item-header">
             <div class="item-title">MS in Health Informatics (Data Analytics)</div>
-            <div class="item-meta">Boston University Metropolitan College · 2025–2027</div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item-header">
-            <div class="item-title">MS in Computer Science</div>
-            <div class="item-meta">Heriot Watt University · 2026-2028</div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item-header">
-            <div class="item-title">AI in Health Care Specialization</div>
-            <div class="item-meta">Stanford University School of Medicine · 2026-2026</div>
+            <div class="item-meta">Boston University Metropolitan College · 2025 to 2027</div>
           </div>
         </div>
 
         <div class="item">
           <div class="item-header">
             <div class="item-title">Global Clinical Scholars Research Training</div>
-            <div class="item-meta">Harvard Medical School · 2024–2025</div>
+            <div class="item-meta">Harvard Medical School · 2024 to 2025</div>
           </div>
           <p class="muted small">
             Advanced epidemiology and public health with concentration in genetic epidemiology.
@@ -269,24 +271,25 @@
         <div class="item">
           <div class="item-header">
             <div class="item-title">MD, Doctor of Medicine</div>
-            <div class="item-meta">Serra dos Órgãos School of Medicine, Rio de Janeiro · 1996–2002</div>
+            <div class="item-meta">Serra dos Órgãos School of Medicine, Rio de Janeiro · 1996 to 2002</div>
           </div>
         </div>
 
         <p class="small muted">
-          Additional postgraduate training includes Medical Genetics, Medical Nutrition, Endocrinology and Metabolism, Medical Biochemistry, Exercise and Sports Medicine and multiple certificates in clinical research, machine learning and genomic data science from Harvard, Johns Hopkins, UC San Diego, NIH and Northeastern University.
+          Additional postgraduate training includes Medical Genetics, Medical Nutrition, Endocrinology and Metabolism,
+          Medical Biochemistry, Exercise and Sports Medicine, and certificates in clinical research, machine learning,
+          and genomic data science.
         </p>
       </div>
 
       <div>
         <h2>Qualifications</h2>
         <ul>
-          <li>More than two decades of specialized experience in endocrinology, medical nutrition and sports medicine.</li>
-          <li>Extensive clinical background in chronic disease prevention and management.</li>
-          <li>Strong experience in personalized treatment protocols grounded in evidence based medicine.</li>
-          <li>Deep understanding of population health trends and their impact on care delivery.</li>
-          <li>Proven record of integrating information systems and AI into healthcare operations.</li>
-          <li>Experience with healthcare business operations, financial management and digital transformation.</li>
+          <li>Extensive clinical background in endocrinology, cardiometabolic risk, and chronic disease prevention.</li>
+          <li>Experienced in translating clinical safety requirements into technical evaluation and governance plans.</li>
+          <li>Strong applied analytics skill set spanning real world data, observational methods, and ML evaluation.</li>
+          <li>Proven record integrating information systems and AI into healthcare operations and research workflows.</li>
+          <li>Leadership experience in digital transformation, education, and cross functional project execution.</li>
         </ul>
       </div>
     </section>
@@ -297,17 +300,17 @@
       <div class="item">
         <div class="item-header">
           <div>
-            <div class="item-title">Healthcare Business Advisor</div>
-            <div class="muted small">FxMEDUS, Brazil and United States · 2024–Present</div>
+            <div class="item-title">Healthcare Business Advisor, Digital Health and AI Governance</div>
+            <div class="muted small">FxMEDUS, United States and Brazil · 2024 to Present</div>
           </div>
           <div class="item-meta">
             <a href="https://www.fxmedus.com" target="_blank" rel="noopener">fxmedus.com</a>
           </div>
         </div>
         <ul>
-          <li>Guides healthcare organizations on strategy for digital transformation, revenue growth and patient care improvement.</li>
-          <li>Designs AI augmented workflows and data driven solutions that align clinical priorities and business outcomes.</li>
-          <li>Coordinates platforms and protocols into tech enabled ecosystems that support scalable telehealth and precision care.</li>
+          <li>Advises healthcare organizations on clinical AI governance, evaluation, and deployment oversight.</li>
+          <li>Designs audit informed monitoring plans and risk controls aligned with clinical workflow realities.</li>
+          <li>Builds reproducible analytics pipelines supporting evidence generation and operational decision making.</li>
         </ul>
       </div>
 
@@ -315,15 +318,15 @@
         <div class="item-header">
           <div>
             <div class="item-title">Associate Professor of Medicine</div>
-            <div class="muted small">Afya Medical Post Graduation Institute, Goiania, Brazil · 2022–Present</div>
+            <div class="muted small">Afya Medical Post Graduation Institute, Goiânia, Brazil · 2022 to Present</div>
           </div>
           <div class="item-meta">
             <a href="https://educacaomedica.afya.com.br/" target="_blank" rel="noopener">Afya Medical Education</a>
           </div>
         </div>
         <ul>
-          <li>Teaches postgraduate physicians in endocrinology and clinical nutrition with emphasis on AI in healthcare and precision medicine.</li>
-          <li>Delivers lectures, grand rounds and research supervision bridging molecular genetics, digital health and clinical practice.</li>
+          <li>Teaches postgraduate physicians in endocrinology and clinical nutrition with emphasis on informatics and AI.</li>
+          <li>Delivers lectures and supervision bridging molecular genetics, digital health, and clinical practice.</li>
         </ul>
       </div>
 
@@ -331,16 +334,16 @@
         <div class="item-header">
           <div>
             <div class="item-title">Physician, Endocrinology, Clinical Nutrition and Sports Medicine</div>
-            <div class="muted small">FxMED Private Practice, Goiania, Brazil · 2011–Present</div>
+            <div class="muted small">FxMED Private Practice, Goiânia, Brazil · 2011 to Present</div>
           </div>
           <div class="item-meta">
             <a href="http://www.fxmed.com.br" target="_blank" rel="noopener">fxmed.com.br</a>
           </div>
         </div>
         <ul>
-          <li>Manages complex endocrine, metabolic and nutritional disorders with individualized treatment plans and lifestyle interventions.</li>
-          <li>Incorporates wearables, mobile applications and telemedicine into longitudinal care.</li>
-          <li>Uses AI tools to monitor population health and identify risk patterns in patient panels.</li>
+          <li>Manages endocrine, metabolic, and nutritional disorders with individualized treatment plans.</li>
+          <li>Incorporates telemedicine, wearables, and longitudinal monitoring into chronic care programs.</li>
+          <li>Applies data driven methods to support clinical risk stratification and prevention strategies.</li>
         </ul>
       </div>
 
@@ -348,29 +351,30 @@
         <div class="item-header">
           <div>
             <div class="item-title">Family Medicine Physician</div>
-            <div class="muted small">Programa Saúde da Família, Brazil · 2007–2011</div>
+            <div class="muted small">Programa Saúde da Família, Brazil · 2007 to 2011</div>
           </div>
         </div>
         <ul>
-          <li>Provided primary care to underserved communities with focus on prevention and chronic disease management.</li>
-          <li>Led community health education and screening initiatives.</li>
+          <li>Provided primary care with focus on prevention, screening, and chronic disease management.</li>
+          <li>Led community health education and outreach initiatives.</li>
         </ul>
       </div>
-
     </section>
 
     <section class="section">
       <h2>Research Interests and Projects</h2>
       <ul>
-        <li>Chronic disease precision management that integrates molecular genetics, nutrition and AI for endocrine and cardiometabolic disorders.</li>
-        <li>AI assisted diagnostics and decision support for chronic disease and cardiovascular risk.</li>
-        <li>Genomic epidemiology and data science applied to population level genetic studies.</li>
-        <li>Drug discovery that targets mitochondrial function using in silico models and agentic AI systems.</li>
+        <li>Clinical AI governance, auditability, and deployment safety in real world care environments.</li>
+        <li>Applied machine learning for cardiometabolic and endocrine risk stratification with reproducible pipelines.</li>
+        <li>Genomic epidemiology and bioinformatics for translational research and precision prevention.</li>
+        <li>Drug discovery targeting mitochondrial biology using computational methods and agentic AI systems.</li>
       </ul>
 
-      <div class="subheading">MitoCoreX Project – Principal Investigator</div>
+      <div class="subheading">MitoCoreX Project, Principal Investigator</div>
       <p class="small">
-        AI powered discovery and development platform designed to optimize mitochondrial function through genomic targeting, multi agent systems and in silico validation. Focus areas include aging related disease, neurodegeneration and metabolic performance.
+        AI enabled discovery and development platform designed to optimize mitochondrial function through genomics aware
+        targeting, multi agent systems, and in silico validation. Focus areas include aging related disease,
+        neurodegeneration, and metabolic performance.
       </p>
     </section>
 
@@ -380,16 +384,17 @@
       <div class="item">
         <div class="subheading">Editorial Roles</div>
         <ul>
-          <li>Academic Editor – PLOS Digital Health</li>
-          <li>Editorial Board Member – International Journal of Diabetes and Endocrinology</li>
-          <li>Editorial Board Member – International Journal of Epidemiology and Public Health Research</li>
+          <li>Academic Editor, PLOS Digital Health</li>
+          <li>Editorial Board Member, International Journal of Diabetes and Endocrinology</li>
+          <li>Editorial Board Member, International Journal of Epidemiology and Public Health Research</li>
         </ul>
       </div>
 
       <div class="item">
         <div class="subheading">Selected Peer Review Activity</div>
         <p class="small">
-          Reviewer for PLOS Digital Health, European Heart Journal Digital Health, European Journal of Preventive Cardiology, Nature Reviews Urology, Diabetes and Metabolic Syndrome Clinical Research and Reviews and related journals, with a focus on digital health, cardiovascular prevention, epidemiology and AI in medicine.
+          Reviewer for PLOS Digital Health, European Heart Journal Digital Health, European Journal of Preventive Cardiology,
+          and related journals, with focus on clinical AI, digital health, epidemiology, and cardiovascular prevention.
         </p>
         <p class="small">
           Full list and identifiers available on Publons and in the PDF CV.
@@ -400,58 +405,79 @@
     <section class="section">
       <h2>Selected Lectures and Presentations</h2>
       <ul>
-        <li>Invited expert, “Wave Equations and their Applications in AI and Healthcare,” International Conference on Artificial Intelligence and Computing (ICAIC 2025), Osaka, Japan.</li>
-        <li>Invited speaker, “Erectile Dysfunction and Cardiovascular Disease Risk: Updated Systematic Review and Meta Analysis of Prospective Studies,” Cardio Summit 2025, Rome.</li>
-        <li>Invited speaker, “Trends in Sudden Cardiac Death in Pilots after COVID 19,” Vaccines R and D Conference, Boston, 2024.</li>
-        <li>Multiple national presentations on oxidative stress, medical nutrition, functional medicine and longevity.</li>
+        <li>Invited expert, Wave Equations and their Applications in AI and Healthcare, International Conference on Artificial Intelligence and Computing, Osaka, Japan.</li>
+        <li>Invited speaker, Erectile Dysfunction and Cardiovascular Disease Risk, systematic review update, Cardio Summit, Rome.</li>
+        <li>Invited speaker, Trends in Sudden Cardiac Death in Pilots after COVID 19, Vaccines Research and Development Conference, Boston.</li>
       </ul>
     </section>
 
     <section class="section">
       <h2>Memberships and Professional Affiliations</h2>
       <ul>
-        <li>American Medical Association (AMA)</li>
+        <li>American Medical Association</li>
         <li>Endocrine Society</li>
-        <li>American Society for Nutrition (ASN)</li>
-        <li>American College of Sports Medicine (ACSM)</li>
-        <li>Brazilian Society of Endocrinology and Metabolism (SBEM)</li>
-        <li>Brazilian Medical Nutrition Association (ABRAN)</li>
-        <li>Brazilian Society of Sports Medicine (SBMEE)</li>
-        <li>American Physician Scientists Association (APSA)</li>
-        <li>American College of Physicians (ACP)</li>
+        <li>American Society for Nutrition</li>
+        <li>American College of Sports Medicine</li>
+        <li>Brazilian Society of Endocrinology and Metabolism</li>
+        <li>Brazilian Medical Nutrition Association</li>
+        <li>Brazilian Society of Sports Medicine</li>
+        <li>American Physician Scientists Association</li>
+        <li>American College of Physicians</li>
       </ul>
     </section>
 
     <section class="section">
       <h2>Languages</h2>
       <ul>
-        <li>Portuguese – Native</li>
-        <li>English – Professional proficiency</li>
-        <li>Spanish – Intermediate</li>
-        <li>French – Intermediate</li>
-        <li>German – Basic</li>
+        <li>Portuguese, Native</li>
+        <li>English, Professional proficiency</li>
+        <li>Spanish, Intermediate</li>
+        <li>French, Intermediate</li>
+        <li>German, Basic</li>
       </ul>
     </section>
 
     <section class="section">
-      <h2>Selected Publications</h2>
+      <h2>Selected Publications and Applied Research</h2>
       <ul>
-        <li>Precision Medicine in Cardiology: An Evolving Understanding of Biomarkers in Coronary Artery Disease Prevention. Cardiology and Cardiovascular Medicine. <a href="https://doi.org/10.26502/fccm.92920395" target="_blank" rel="noopener">DOI</a></li>
-        <li>The Inverse Association between Testosterone Replacement Therapy and Cardiovascular Disease Risk: A Twenty Five Year Systematic Review. International Journal of Cardiovascular Medicine. <a href="https://doi.org/10.31579/2834-796X/073" target="_blank" rel="noopener">DOI</a></li>
-        <li>Translational Cardiology – Role of Coenzyme Q10 in Cardiovascular Disease. Translational Medicine Open Access. <a href="https://doi.org/10.33140/tmoa.02.01.04" target="_blank" rel="noopener">DOI</a></li>
-        <li>Machine Learning Framework for Early Cardiovascular Risk Detection. Harvard Dataverse. <a href="https://doi.org/10.7910/DVN/ZRUWIV" target="_blank" rel="noopener">DOI</a></li>
-        <li>Auditing Shortcut Learning in AI based Genomic Subtyping of Breast Cancer. Harvard GCSRT Capstone Project. <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BALJNT" target="_blank" rel="noopener">Dataverse</a> · <a href="https://github.com/julian-borges/breast-cancer-ai-misclassification-" target="_blank" rel="noopener">GitHub</a></li>
-        <li>Additional articles on digital health, cardiovascular prevention, oral testosterone therapy, nutraceuticals and religiosity and nutrology in palliative care listed in the full CV.</li>
+        <li>
+          Auditing Shortcut Learning in AI based Breast Cancer Genomic Subtyping. JAMIA Open.
+          <a href="https://doi.org/10.1093/jamiaopen/ooaf177" target="_blank" rel="noopener">DOI</a>
+        </li>
+        <li>
+          Machine Learning Framework for Early Cardiovascular Risk Detection. Harvard Dataverse.
+          <a href="https://doi.org/10.7910/DVN/ZRUWIV" target="_blank" rel="noopener">DOI</a>
+        </li>
+        <li>
+          Emerging Digital Health Interventions for Cardiovascular Disease. Preprint.
+          <a href="https://ssrn.com/abstract=4981082" target="_blank" rel="noopener">SSRN</a>
+        </li>
+        <li>
+          Machine Learning Insights for Cardiovascular Risk Prediction in Diabetic Patients: Emphasis on Renal and Cardiac Markers Using Random Forests. AIH Journal. Final revision.
+        </li>
+        <li>
+          DIG Trial Subgroup Analysis on Renal Function and Digoxin. Harvard Medical School GCSRT Dataverse.
+          <a href="https://doi.org/10.7910/DVN/ZHYHY5" target="_blank" rel="noopener">DOI</a>
+        </li>
+        <li class="small">
+          Additional publications in cardiometabolic prevention, endocrine therapeutics, and clinical nutrition available in the full CV upon request.
+        </li>
       </ul>
+      <p class="small muted">
+        Applied machine learning portfolio progression: framework definition, system context, and real world implementation with validation and auditability.
+      </p>
     </section>
 
     <section class="section">
       <h2>Point of Care Ultrasound Training</h2>
       <p class="small">
-        Completed structured programs in obstetric, transvaginal, internal medicine and musculoskeletal ultrasound at FÉRTILE Diagnósticos, an accredited SBUS teaching center in Goiânia, Brazil, including more than three hundred hours of theoretical and hands on training across obstetric, gynecologic, abdominal and musculoskeletal imaging.
+        Completed structured programs in obstetric, transvaginal, internal medicine, and musculoskeletal ultrasound at
+        FÉRTILE Diagnósticos, an accredited SBUS teaching center in Goiânia, Brazil, including more than three hundred
+        hours of theoretical and hands on training across obstetric, gynecologic, abdominal, and musculoskeletal imaging.
       </p>
     </section>
 
   </main>
 </body>
 </html>
+```
