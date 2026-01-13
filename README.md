@@ -184,7 +184,7 @@
   <main class="page">
     <header class="header">
       <div class="header-left">
-        <h1>Julian Y. V. Borges, MD, MSc</h1>
+        <h1>Julian Y. V. Borges, MD, MS</h1>
         <p class="tagline">Senior Clinical AI Governance and Safety Lead · Remote United States</p>
         <p class="muted small">Clinician scientist specializing in clinical AI governance, model evaluation, deployment safety, and real world evidence systems.</p>
       </div>
