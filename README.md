@@ -164,8 +164,60 @@
     ul { margin-top: 0.4rem; padding-left: 1.1rem; }
     li { margin-bottom: 0.35rem; }
 
+    /* ===========================
+       NEW: ANIMATED LINKS + BADGES
+       Applies to all links, including DOIs in publications
+       =========================== */
     a { color: #2563eb; }
     a:hover { text-decoration: underline; }
+
+    a,
+    .header-right a,
+    .badge {
+      transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease, color 160ms ease, opacity 160ms ease;
+      will-change: transform;
+    }
+
+    /* Subtle lift for normal links (DOIs, mailto, etc.) */
+    a:hover {
+      transform: translateY(-1px);
+    }
+
+    a:active {
+      transform: translateY(0px);
+      opacity: 0.95;
+    }
+
+    a:focus-visible {
+      outline: 3px solid rgba(37, 99, 235, 0.35);
+      outline-offset: 3px;
+      border-radius: 0.4rem;
+    }
+
+    /* More life for badges (slightly bigger + shadow) */
+    .badge:hover {
+      transform: translateY(-1px) scale(1.04);
+      box-shadow: 0 10px 18px rgba(17, 24, 39, 0.10);
+      background: #e0e7ff;
+      text-decoration: none;
+    }
+
+    .badge:active {
+      transform: translateY(0px) scale(0.99);
+      box-shadow: 0 6px 10px rgba(17, 24, 39, 0.08);
+    }
+
+    /* Respect reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      a, .badge {
+        transition: none !important;
+      }
+      a:hover, .badge:hover {
+        transform: none !important;
+        box-shadow: none !important;
+      }
+    }
+    /* =========================== */
 
     .code-link {
       font-family: ui-monospace, SFMonoRegular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -229,7 +281,7 @@
         padding: 0.75in;
       }
       a { color: #111827; text-decoration: none; }
-      .badge { border: 1px solid #d1d5db; background: #ffffff; color: #111827; }
+      .badge { border: 1px solid #d1d5db; background: #ffffff; color: #111827; box-shadow: none; }
       .tech-card { background: #ffffff; }
     }
   </style>
