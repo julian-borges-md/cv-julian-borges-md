@@ -187,6 +187,28 @@
     .kpi .kpi-title { font-weight: 700; margin-bottom: 0.15rem; }
     .kpi .kpi-text { color: #374151; font-size: 0.95rem; }
 
+    /* New: technical skills layout */
+    .tech-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      margin-top: 0.75rem;
+    }
+
+    @media (max-width: 700px) {
+      .tech-grid { grid-template-columns: 1fr; }
+    }
+
+    .tech-card {
+      border: 1px solid #e5e7eb;
+      border-radius: 0.75rem;
+      padding: 0.85rem;
+      background: #f9fafb;
+    }
+
+    .tech-card .tech-title { font-weight: 700; margin-bottom: 0.15rem; }
+    .tech-card .tech-text { color: #374151; font-size: 0.95rem; }
+
     @media print {
       :root { background: #ffffff; }
       .page {
@@ -198,6 +220,7 @@
       }
       a { color: #111827; text-decoration: none; }
       .badge { border: 1px solid #d1d5db; background: #ffffff; color: #111827; }
+      .tech-card { background: #ffffff; }
     }
   </style>
 </head>
@@ -214,11 +237,11 @@
         </p>
 
         <div class="badge-row" aria-label="Profile links">
-  <a class="badge" href="https://doi.org/10.1093/jamiaopen/ooaf177" target="_blank" rel="noopener">JAMIA Open</a>
-  <a class="badge" href="https://doi.org/10.5281/zenodo.18248286" target="_blank" rel="noopener">Zenodo</a>
-  <a class="badge" href="https://orcid.org/0009-0001-9929-3135" target="_blank" rel="noopener">ORCID</a>
-</div>
-
+          <a class="badge" href="https://doi.org/10.1093/jamiaopen/ooaf177" target="_blank" rel="noopener">JAMIA Open</a>
+          <a class="badge" href="https://doi.org/10.5281/zenodo.18248286" target="_blank" rel="noopener">Zenodo</a>
+          <a class="badge" href="https://orcid.org/0009-0001-9929-3135" target="_blank" rel="noopener">ORCID</a>
+        </div>
+      </div>
 
       <div class="header-right">
         <div>Boston Area, Massachusetts</div>
@@ -240,6 +263,7 @@
           <a href="https://orcid.org/0009-0001-9929-3135" target="_blank" rel="noopener">0009 0001 9929 3135</a>
         </div>
       </div>
+    </header>
 
     <section class="section">
       <h2>Executive Summary</h2>
@@ -310,6 +334,50 @@
           <li>Cross Functional Leadership</li>
           <li>Stakeholder Communication</li>
         </ul>
+
+        <!-- New: Technical Skills section (added without shortening existing content) -->
+        <h2 style="margin-top:1.5rem;">Technical Skills</h2>
+        <div class="card">
+          <p class="small">
+            I routinely apply programming and statistical languages to support clinical informatics implementation, data modeling, and applied clinical analytics.
+            My primary languages include Python, R, and Stata, selected based on the analytic task, dataset structure, and reporting requirements.
+          </p>
+
+          <div class="tech-grid" aria-label="Technical skills grid">
+            <div class="tech-card">
+              <div class="tech-title">Python</div>
+              <div class="tech-text">
+                Development of analytics pipelines, data processing and automation, machine learning model development and evaluation, and reproducible workflow execution for clinical and operational datasets.
+              </div>
+            </div>
+
+            <div class="tech-card">
+              <div class="tech-title">R</div>
+              <div class="tech-text">
+                Statistical modeling, epidemiology focused analyses, reproducible research workflows, and generation of publication ready tables and figures.
+              </div>
+            </div>
+
+            <div class="tech-card">
+              <div class="tech-title">Stata</div>
+              <div class="tech-text">
+                Observational study analytics, cohort and outcomes analyses, regression modeling, and clinical research focused reporting workflows commonly used in medical and public health research settings.
+              </div>
+            </div>
+
+            <div class="tech-card">
+              <div class="tech-title">SQL</div>
+              <div class="tech-text">
+                Data extraction, cohort definition, longitudinal dataset assembly, and construction of analysis ready tables supporting governance, evidence generation, and operational monitoring.
+              </div>
+            </div>
+          </div>
+
+          <p class="small" style="margin-top:0.75rem;">
+            These languages support end to end informatics work, including structured dataset creation, data quality checks, analytic monitoring,
+            and evidence generation for clinical decision support, evaluation initiatives, and governance operations.
+          </p>
+        </div>
       </div>
 
       <div>
@@ -565,3 +633,7 @@
         </p>
       </div>
     </section>
+
+  </main>
+</body>
+</html>
