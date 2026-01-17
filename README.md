@@ -240,7 +240,6 @@
           <a href="https://orcid.org/0009-0001-9929-3135" target="_blank" rel="noopener">0009 0001 9929 3135</a>
         </div>
       </div>
-    </header>
 
     <section class="section">
       <h2>Executive Summary</h2>
