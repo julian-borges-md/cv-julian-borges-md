@@ -61,9 +61,10 @@
 
     .header-left { min-width: 260px; }
 
+    /* Updated: header-right now left-aligned per request */
     .header-right {
       min-width: 260px;
-      text-align: right;
+      text-align: left;
       font-size: 0.95rem;
     }
 
@@ -74,15 +75,6 @@
       margin-top: 0.25rem;
       font-weight: 600;
       color: #374151;
-    }
-
-    .badges {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-top: 0.75rem;
-      padding: 0;
-      list-style: none;
     }
 
     .badge-row {
@@ -194,10 +186,7 @@
     .kpi .kpi-title { font-weight: 700; margin-bottom: 0.15rem; }
     .kpi .kpi-text { color: #374151; font-size: 0.95rem; }
 
-    /* New: full-width technical skills section */
-    .full-width {
-      width: 100%;
-    }
+    .full-width { width: 100%; }
 
     .tech-grid-full {
       display: grid;
@@ -255,24 +244,21 @@
         </div>
       </div>
 
-      <div class="header-right">
+      <!-- Updated: contact block aligned left with exact requested lines -->
+      <div class="header-right" aria-label="Contact information">
         <div>Boston Area, Massachusetts</div>
         <div>Phone: +1 617 895 8403</div>
         <div>Email: <a href="mailto:jyborges@bu.edu">jyborges@bu.edu</a></div>
-
         <div class="code-link" style="margin-top:0.5rem;">
           GitHub:
           <a href="https://github.com/julian-borges-md" target="_blank" rel="noopener">julian-borges-md</a>
         </div>
-
         <div class="code-link">
           LinkedIn:
           <a href="https://www.linkedin.com/in/julian-borges-md/" target="_blank" rel="noopener">julian-borges-md</a>
         </div>
-
         <div class="small" style="margin-top:0.25rem;">
-          ORCID:
-          <a href="https://orcid.org/0009-0001-9929-3135" target="_blank" rel="noopener">0009 0001 9929 3135</a>
+          ORCID: 0009 0001 9929 3135
         </div>
       </div>
     </header>
@@ -381,7 +367,6 @@
       </div>
     </section>
 
-    <!-- Full-width Technical Skills section to remove empty space and stretch across page -->
     <section class="section full-width">
       <h2>Technical Skills</h2>
       <div class="card">
@@ -616,38 +601,3 @@
           <li>American Medical Association</li>
           <li>Endocrine Society</li>
           <li>American Society for Nutrition</li>
-          <li>American College of Sports Medicine</li>
-          <li>American Physician Scientists Association</li>
-          <li>American College of Physicians</li>
-          <li>Brazilian Society of Endocrinology and Metabolism</li>
-          <li>Brazilian Medical Nutrition Association</li>
-          <li>Brazilian Society of Sports Medicine</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Clinical Imaging Training</h2>
-      <div class="card">
-        <p class="small">
-          Completed structured programs in obstetric, transvaginal, internal medicine, and musculoskeletal ultrasound at FÉRTILE Diagnósticos,
-          an accredited SBUS teaching center in Goiânia, Brazil, including more than three hundred hours of theoretical and hands on training across obstetric,
-          gynecologic, abdominal, and musculoskeletal imaging.
-        </p>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Contact and Executive Collaboration</h2>
-      <div class="card">
-        <p><strong>Email:</strong> <a href="mailto:jyborges@bu.edu">jyborges@bu.edu</a></p>
-        <p><strong>Phone:</strong> +1 617 895 8403</p>
-        <p class="muted small">
-          Open to senior leadership roles and strategic collaborations across clinical informatics, data science, AI governance, translational bioinformatics, and evidence systems.
-        </p>
-      </div>
-    </section>
-
-  </main>
-</body>
-</html>
