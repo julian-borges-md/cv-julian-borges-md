@@ -85,6 +85,13 @@
       list-style: none;
     }
 
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+    }
+
     .badge {
       display: inline-flex;
       align-items: center;
@@ -187,27 +194,32 @@
     .kpi .kpi-title { font-weight: 700; margin-bottom: 0.15rem; }
     .kpi .kpi-text { color: #374151; font-size: 0.95rem; }
 
-    /* New: technical skills layout */
-    .tech-grid {
+    /* New: full-width technical skills section */
+    .full-width {
+      width: 100%;
+    }
+
+    .tech-grid-full {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 0.75rem;
       margin-top: 0.75rem;
     }
 
-    @media (max-width: 700px) {
-      .tech-grid { grid-template-columns: 1fr; }
+    @media (max-width: 900px) {
+      .tech-grid-full { grid-template-columns: 1fr; }
     }
 
     .tech-card {
       border: 1px solid #e5e7eb;
       border-radius: 0.75rem;
-      padding: 0.85rem;
+      padding: 0.95rem;
       background: #f9fafb;
+      height: 100%;
     }
 
-    .tech-card .tech-title { font-weight: 700; margin-bottom: 0.15rem; }
-    .tech-card .tech-text { color: #374151; font-size: 0.95rem; }
+    .tech-title { font-weight: 800; margin-bottom: 0.25rem; }
+    .tech-text { color: #374151; font-size: 0.95rem; }
 
     @media print {
       :root { background: #ffffff; }
@@ -334,50 +346,6 @@
           <li>Cross Functional Leadership</li>
           <li>Stakeholder Communication</li>
         </ul>
-
-        <!-- New: Technical Skills section (added without shortening existing content) -->
-        <h2 style="margin-top:1.5rem;">Technical Skills</h2>
-        <div class="card">
-          <p class="small">
-            I routinely apply programming and statistical languages to support clinical informatics implementation, data modeling, and applied clinical analytics.
-            My primary languages include Python, R, and Stata, selected based on the analytic task, dataset structure, and reporting requirements.
-          </p>
-
-          <div class="tech-grid" aria-label="Technical skills grid">
-            <div class="tech-card">
-              <div class="tech-title">Python</div>
-              <div class="tech-text">
-                Development of analytics pipelines, data processing and automation, machine learning model development and evaluation, and reproducible workflow execution for clinical and operational datasets.
-              </div>
-            </div>
-
-            <div class="tech-card">
-              <div class="tech-title">R</div>
-              <div class="tech-text">
-                Statistical modeling, epidemiology focused analyses, reproducible research workflows, and generation of publication ready tables and figures.
-              </div>
-            </div>
-
-            <div class="tech-card">
-              <div class="tech-title">Stata</div>
-              <div class="tech-text">
-                Observational study analytics, cohort and outcomes analyses, regression modeling, and clinical research focused reporting workflows commonly used in medical and public health research settings.
-              </div>
-            </div>
-
-            <div class="tech-card">
-              <div class="tech-title">SQL</div>
-              <div class="tech-text">
-                Data extraction, cohort definition, longitudinal dataset assembly, and construction of analysis ready tables supporting governance, evidence generation, and operational monitoring.
-              </div>
-            </div>
-          </div>
-
-          <p class="small" style="margin-top:0.75rem;">
-            These languages support end to end informatics work, including structured dataset creation, data quality checks, analytic monitoring,
-            and evidence generation for clinical decision support, evaluation initiatives, and governance operations.
-          </p>
-        </div>
       </div>
 
       <div>
@@ -410,6 +378,52 @@
             <li>German: Basic</li>
           </ul>
         </div>
+      </div>
+    </section>
+
+    <!-- Full-width Technical Skills section to remove empty space and stretch across page -->
+    <section class="section full-width">
+      <h2>Technical Skills</h2>
+      <div class="card">
+        <p class="small">
+          I routinely apply programming and statistical languages to support clinical informatics implementation, data modeling, and applied clinical analytics.
+          My primary languages include Python, R, and Stata, selected based on the analytic task, dataset structure, and reporting requirements.
+        </p>
+
+        <div class="tech-grid-full" aria-label="Technical skills grid">
+          <div class="tech-card">
+            <div class="tech-title">Python</div>
+            <div class="tech-text">
+              Development of analytics pipelines, data processing and automation, machine learning model development and evaluation, and reproducible workflow execution for clinical and operational datasets.
+            </div>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-title">R</div>
+            <div class="tech-text">
+              Statistical modeling, epidemiology focused analyses, reproducible research workflows, and generation of publication ready tables and figures.
+            </div>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-title">Stata</div>
+            <div class="tech-text">
+              Observational study analytics, cohort and outcomes analyses, regression modeling, and clinical research focused reporting workflows commonly used in medical and public health research settings.
+            </div>
+          </div>
+
+          <div class="tech-card">
+            <div class="tech-title">SQL</div>
+            <div class="tech-text">
+              Data extraction, cohort definition, longitudinal dataset assembly, and construction of analysis ready tables supporting governance, evidence generation, and operational monitoring.
+            </div>
+          </div>
+        </div>
+
+        <p class="small" style="margin-top:0.75rem;">
+          These languages support end to end informatics work, including structured dataset creation, data quality checks, analytic monitoring,
+          and evidence generation for clinical decision support, evaluation initiatives, and governance operations.
+        </p>
       </div>
     </section>
 
