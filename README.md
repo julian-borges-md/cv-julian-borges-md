@@ -601,3 +601,38 @@
           <li>American Medical Association</li>
           <li>Endocrine Society</li>
           <li>American Society for Nutrition</li>
+          <li>American College of Sports Medicine</li>
+          <li>American Physician Scientists Association</li>
+          <li>American College of Physicians</li>
+          <li>Brazilian Society of Endocrinology and Metabolism</li>
+          <li>Brazilian Medical Nutrition Association</li>
+          <li>Brazilian Society of Sports Medicine</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Clinical Imaging Training</h2>
+      <div class="card">
+        <p class="small">
+          Completed structured programs in obstetric, transvaginal, internal medicine, and musculoskeletal ultrasound at FÉRTILE Diagnósticos,
+          an accredited SBUS teaching center in Goiânia, Brazil, including more than three hundred hours of theoretical and hands on training across obstetric,
+          gynecologic, abdominal, and musculoskeletal imaging.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Contact and Executive Collaboration</h2>
+      <div class="card">
+        <p><strong>Email:</strong> <a href="mailto:jyborges@bu.edu">jyborges@bu.edu</a></p>
+        <p><strong>Phone:</strong> +1 617 895 8403</p>
+        <p class="muted small">
+          Open to senior leadership roles and strategic collaborations across clinical informatics, data science, AI governance, translational bioinformatics, and evidence systems.
+        </p>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
