@@ -1,3 +1,5 @@
+cv html 2 
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -213,12 +215,12 @@
           into deployable governance, evidence, and decision systems for healthcare.
         </p>
 
-        <ul class="badges" aria-label="Profile links">
-          <li><a class="badge" href="https://doi.org/10.1093/jamiaopen/ooaf177" target="_blank" rel="noopener">JAMIA Open DOI</a></li>
-          <li><a class="badge" href="https://doi.org/10.5281/zenodo.18248286" target="_blank" rel="noopener">Zenodo DOI</a></li>
-          <li><a class="badge" href="https://orcid.org/0009-0001-9929-3135" target="_blank" rel="noopener">ORCID</a></li>
-        </ul>
-      </div>
+        <div class="badge-row" aria-label="Profile links">
+  <a class="badge" href="https://doi.org/10.1093/jamiaopen/ooaf177" target="_blank" rel="noopener">JAMIA Open</a>
+  <a class="badge" href="https://doi.org/10.5281/zenodo.18248286" target="_blank" rel="noopener">Zenodo</a>
+  <a class="badge" href="https://orcid.org/0009-0001-9929-3135" target="_blank" rel="noopener">ORCID</a>
+</div>
+
 
       <div class="header-right">
         <div>Boston Area, Massachusetts</div>
@@ -240,7 +242,6 @@
           <a href="https://orcid.org/0009-0001-9929-3135" target="_blank" rel="noopener">0009 0001 9929 3135</a>
         </div>
       </div>
-    </header>
 
     <section class="section">
       <h2>Executive Summary</h2>
@@ -566,6 +567,3 @@
         </p>
       </div>
     </section>
-  </main>
-</body>
-</html>
