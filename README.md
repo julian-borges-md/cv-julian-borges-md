@@ -1,4 +1,4 @@
-<html lang="en"> 
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Julian Y. V. Borges, MD, MS — Senior Leadership CV</title>
@@ -67,9 +67,6 @@
       font-size: 0.95rem;
     }
 
-    .header-right a { color: #2563eb; text-decoration: none; }
-    .header-right a:hover { text-decoration: underline; }
-
     .tagline {
       margin-top: 0.25rem;
       font-weight: 600;
@@ -98,10 +95,17 @@
       white-space: nowrap;
     }
 
-    .badge:hover { text-decoration: underline; }
-
     /* New: X badge icon */
     .badge-x-icon {
+      width: 0.95rem;
+      height: 0.95rem;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 0.1rem;
+    }
+
+    /* New: LinkedIn badge icon */
+    .badge-in-icon {
       width: 0.95rem;
       height: 0.95rem;
       display: inline-block;
@@ -164,22 +168,20 @@
     ul { margin-top: 0.4rem; padding-left: 1.1rem; }
     li { margin-bottom: 0.35rem; }
 
-    /* ===========================
-       NEW: ANIMATED LINKS + BADGES
-       Applies to all links, including DOIs in publications
-       =========================== */
-    a { color: #2563eb; }
-    a:hover { text-decoration: underline; }
+    /* =====================================================
+       ANIMATION APPLIED TO ALL LINKS, INCLUDING PUBLICATIONS
+       ===================================================== */
+    a { color: #2563eb; text-decoration: none; }
 
     a,
-    .header-right a,
     .badge {
       transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease, color 160ms ease, opacity 160ms ease;
       will-change: transform;
     }
 
-    /* Subtle lift for normal links (DOIs, mailto, etc.) */
+    /* Subtle life for ALL links (DOIs, mailto, GitHub, etc.) */
     a:hover {
+      text-decoration: underline;
       transform: translateY(-1px);
     }
 
@@ -194,7 +196,7 @@
       border-radius: 0.4rem;
     }
 
-    /* More life for badges (slightly bigger + shadow) */
+    /* More life for badge buttons */
     .badge:hover {
       transform: translateY(-1px) scale(1.04);
       box-shadow: 0 10px 18px rgba(17, 24, 39, 0.10);
@@ -207,17 +209,11 @@
       box-shadow: 0 6px 10px rgba(17, 24, 39, 0.08);
     }
 
-    /* Respect reduced motion */
     @media (prefers-reduced-motion: reduce) {
-      a, .badge {
-        transition: none !important;
-      }
-      a:hover, .badge:hover {
-        transform: none !important;
-        box-shadow: none !important;
-      }
+      a, .badge { transition: none !important; }
+      a:hover, .badge:hover { transform: none !important; box-shadow: none !important; }
     }
-    /* =========================== */
+    /* ===================================================== */
 
     .code-link {
       font-family: ui-monospace, SFMonoRegular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -302,11 +298,20 @@
           <a class="badge" href="https://doi.org/10.1093/jamiaopen/ooaf177" target="_blank" rel="noopener">JAMIA Open</a>
           <a class="badge" href="https://doi.org/10.5281/zenodo.18248286" target="_blank" rel="noopener">Zenodo</a>
           <a class="badge" href="https://orcid.org/0009-0001-9929-3135" target="_blank" rel="noopener">ORCID</a>
-          <!-- New: X badge placed immediately to the right of ORCID -->
+
+          <!-- X badge -->
           <a class="badge" href="https://x.com/julianborgesmd" target="_blank" rel="noopener" aria-label="X profile">
             <svg class="badge-x-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
               <path fill="currentColor" d="M18.9 2H22l-6.8 7.8L23.2 22h-6.7l-5.2-6.5L5.7 22H2.6l7.4-8.5L1 2h6.8l4.7 6.1L18.9 2zm-1.2 18h1.7L7.1 3.9H5.3L17.7 20z"></path>
             </svg>
+          </a>
+
+          <!-- New: LinkedIn badge beside X -->
+          <a class="badge" href="https://www.linkedin.com/in/julian-borges-md/" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+            <svg class="badge-in-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.476-.9 1.637-1.85 3.368-1.85 3.6 0 4.266 2.368 4.266 5.455v6.286zM5.337 7.433A2.062 2.062 0 0 1 3.27 5.37c0-1.14.925-2.067 2.067-2.067 1.141 0 2.066.926 2.066 2.067 0 1.141-.925 2.063-2.066 2.063zM6.814 20.452H3.861V9h2.953v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            in/julian-borges-md
           </a>
         </div>
       </div>
