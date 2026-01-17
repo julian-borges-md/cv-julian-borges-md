@@ -61,7 +61,6 @@
 
     .header-left { min-width: 260px; }
 
-    /* Updated: header-right now left-aligned per request */
     .header-right {
       min-width: 260px;
       text-align: left;
@@ -82,6 +81,7 @@
       flex-wrap: wrap;
       gap: 0.5rem;
       margin-top: 0.75rem;
+      align-items: center;
     }
 
     .badge {
@@ -99,6 +99,15 @@
     }
 
     .badge:hover { text-decoration: underline; }
+
+    /* New: X badge icon */
+    .badge-x-icon {
+      width: 0.95rem;
+      height: 0.95rem;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 0.1rem;
+    }
 
     .section { margin-top: 1.5rem; }
 
@@ -241,10 +250,16 @@
           <a class="badge" href="https://doi.org/10.1093/jamiaopen/ooaf177" target="_blank" rel="noopener">JAMIA Open</a>
           <a class="badge" href="https://doi.org/10.5281/zenodo.18248286" target="_blank" rel="noopener">Zenodo</a>
           <a class="badge" href="https://orcid.org/0009-0001-9929-3135" target="_blank" rel="noopener">ORCID</a>
+          <!-- New: X badge placed immediately to the right of ORCID -->
+          <a class="badge" href="https://x.com/julianborgesmd" target="_blank" rel="noopener" aria-label="X profile">
+            <svg class="badge-x-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M18.9 2H22l-6.8 7.8L23.2 22h-6.7l-5.2-6.5L5.7 22H2.6l7.4-8.5L1 2h6.8l4.7 6.1L18.9 2zm-1.2 18h1.7L7.1 3.9H5.3L17.7 20z"></path>
+            </svg>
+            X
+          </a>
         </div>
       </div>
 
-      <!-- Updated: contact block aligned left with exact requested lines -->
       <div class="header-right" aria-label="Contact information">
         <div>Boston Area, Massachusetts</div>
         <div>Phone: +1 617 895 8403</div>
