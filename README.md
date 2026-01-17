@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Julian Y. V. Borges, MD, MSc – CV</title>
+  <title>Julian Y. V. Borges, MD, MS – CV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root {
@@ -484,30 +485,37 @@
       <h2>Selected Publications and Applied Research</h2>
       <ul>
         <li>
-          Auditing Shortcut Learning in AI based Breast Cancer Genomic Subtyping. JAMIA Open.
-          <a href="https://doi.org/10.1093/jamiaopen/ooaf177" target="_blank" rel="noopener">DOI</a>
+          Borges J.Y.V. (2026) Auditing Shortcut Learning in AI based Breast Cancer Genomic Subtyping. JAMIA Open.
+          <a href="https://doi.org/10.1093/jamiaopen/ooaf177" target="_blank" rel="noopener">DOI:10.1093/jamiaopen/ooaf177</a>
         </li>
         <li>
-          Machine Learning Framework for Early Cardiovascular Risk Detection. Harvard Dataverse.
-          <a href="https://doi.org/10.7910/DVN/ZRUWIV" target="_blank" rel="noopener">DOI</a>
+          Borges J.Y.V. Machine Learning Insights for Cardiovascular Risk Prediction in Diabetic Patients: Emphasis on Renal and Cardiac Markers Using Random Forests. Submitted (MCP AIH).
         </li>
         <li>
-          Emerging Digital Health Interventions for Cardiovascular Disease. Preprint.
-          <a href="https://ssrn.com/abstract=4981082" target="_blank" rel="noopener">SSRN</a>
+          Borges, Julian. Multi Arm Bandit Governance for Clinical AI. Zenodo, January 14, 2026.
+          <a href="https://doi.org/10.5281/zenodo.18248286" target="_blank" rel="noopener">DOI:10.5281/zenodo.18248286</a>
         </li>
         <li>
-          Machine Learning Insights for Cardiovascular Risk Prediction in Diabetic Patients: Emphasis on Renal and Cardiac Markers Using Random Forests. AIH Journal. Final revision.
+          Borges J.Y.V., Borges, Julian (2026) Adaptive FHIR Native AI Governance for Clinical Decision Support. Forthcoming.
         </li>
         <li>
-          DIG Trial Subgroup Analysis on Renal Function and Digoxin. Harvard Medical School GCSRT Dataverse.
-          <a href="https://doi.org/10.7910/DVN/ZHYHY5" target="_blank" rel="noopener">DOI</a>
+          Borges J.Y.V. Innovative E Health Technologies for CVD Treatment. Medical Devices &amp; Surgical Technology Week.
+          <a href="https://doi.org/10.1101/2024.06.29.24309706" target="_blank" rel="noopener">DOI:10.1101/2024.06.29.24309706</a>
+        </li>
+        <li>
+          Borges J.Y.V. Artificial Intelligence in Pain Management: Advancing Translational Science in Digital Health Research from Bench to Bedside. Advances in Machine Learning &amp; Artificial Intelligence.
+          <a href="https://doi.org/10.33140/amlai.05.03.04" target="_blank" rel="noopener">DOI:10.33140/amlai.05.03.04</a>
+        </li>
+        <li>
+          Borges J.Y.V. Precision Medicine in Cardiology: An Evolving Understanding of Biomarkers in Coronary Artery Disease Prevention. Cardiology and Cardiovascular Medicine, 8(4).
+          <a href="https://doi.org/10.26502/fccm.92920395" target="_blank" rel="noopener">DOI:10.26502/fccm.92920395</a>
         </li>
         <li class="small">
           Additional publications in cardiometabolic prevention, endocrine therapeutics, and clinical nutrition available in the full CV upon request.
         </li>
       </ul>
       <p class="small muted">
-        Applied machine learning portfolio progression: framework definition, system context, and real world implementation with validation and auditability.
+        Applied machine learning portfolio progression: governance framing, system context, and implementation pathways with validation, auditability, and deployment safety.
       </p>
     </section>
 
